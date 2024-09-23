@@ -12,7 +12,6 @@ data = load_data()
 
 # %%
 st.markdown("## **CALIFORNIA HOUSING DATA**")  # 添加加粗大写标题
-price_filter = st.slider('Select Median House Value Range', int(data['median_house_value'].min()), int(data['median_house_value'].max()), (0, 500001))
 
 # 位置类型选择器
 ocean_proximity = st.sidebar.multiselect(
