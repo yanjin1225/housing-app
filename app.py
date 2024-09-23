@@ -44,9 +44,6 @@ elif income_level == 'Medium':
 else:
     filtered_data = filtered_data[filtered_data['median_income'] > 4.5]
 
-
-
-
 # 显示地图
 st.map(filtered_data)
 
