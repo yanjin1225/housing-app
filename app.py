@@ -46,6 +46,8 @@ elif income_level == 'Medium':
 else:
     filtered_data = filtered_data[filtered_data['median_income'] > 4.5]
 
+st.markdown("## **CALIFORNIA HOUSING DATA**")  # 添加加粗大写标题
+price_filter = st.slider('Select Median House Value Range', int(data['median_house_value'].min()), int(data['median_house_value'].max()), (0, 500001))
 
 # %%
 # 显示地图
