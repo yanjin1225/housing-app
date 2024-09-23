@@ -10,7 +10,8 @@ def load_data():
 data = load_data()
 
 # %%
-st.markdown("## **CALIFORNIA HOUSING DATA**")  # 添加加粗大写标题
+st.markdown("<h2 style='font-size: 36px;'><strong>CALIFORNIA HOUSING DATA</strong></h2>", unsafe_allow_html=True)
+
 price_filter = st.slider('Select Median House Value Range', int(data['median_house_value'].min()), int(data['median_house_value'].max()), (0, 500001))
 
 # 位置类型选择器
