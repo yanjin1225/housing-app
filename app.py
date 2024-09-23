@@ -46,11 +46,12 @@ else:
     filtered_data = filtered_data[filtered_data['median_income'] > 4.5]
 
 # 显示地图
+st.subheader("See more filters in the sidebar")
 st.map(filtered_data)
 
 # %%
 
-st.subheader("Histogram of Median House Value")
+
 plt.hist(filtered_data['median_house_value'], bins=30)
 st.pyplot(plt)
 
