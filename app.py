@@ -12,7 +12,7 @@ data = load_data()
 
 # %%
 st.sidebar.header("Filters")
-price_filter = st.sidebar.slider('Select Median House Value Range', int(data['median_house_value'].min()), int(data['median_house_value'].max()), (50000, 300000))
+
 # 位置类型选择器
 ocean_proximity = st.sidebar.multiselect(
     'Choose The Location Type',
