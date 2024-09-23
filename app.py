@@ -62,8 +62,6 @@ st.subheader("Histogram of Median House Value")
 plt.hist(filtered_data['median_house_value'], bins=30)
 st.pyplot(plt)
 
-# %%
-pip install streamlit
 
 
 
