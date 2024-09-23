@@ -30,7 +30,7 @@ ocean_proximity = st.sidebar.multiselect(
 # %%
 # 收入水平选择器
 income_level = st.sidebar.radio(
-    "Select Income Level",
+    "Choose Income Level",
     ('Low', 'Medium', 'High')
 )
 
