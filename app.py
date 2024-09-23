@@ -22,7 +22,7 @@ price_filter = st.sidebar.slider('Minimal median house value', int(data['median_
 # %%
 # 位置类型选择器
 ocean_proximity = st.sidebar.multiselect(
-    'Select Location Type',
+    'Choose The Location Type',
     options=data['ocean_proximity'].unique(),
     default=data['ocean_proximity'].unique()
 )
