@@ -1,6 +1,3 @@
-# %%
-pip install streamlit pandas
-
 
 # %%
 import streamlit as st
